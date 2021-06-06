@@ -32,7 +32,7 @@ The seed signatures are placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_
 
 To **reproduce results of NN-RANK** and other baseline models, use `compute_result.ipynb` following the instructions above.
 
-### To re-generate concept & fine-tuning
+### To reproduce concept embedding & fine-tuning
 
 > Code is tested on **Ubuntu 18.04.3 LTS** and **Python 3.6.9**
 >
@@ -62,7 +62,7 @@ To re-generate concept embedding,  use `python3 Generate_embedding.py`.
 
 To re-generate fine-tuned concept embedding, unzip the language model in `checkpoints/`, and run `NNRANK_finetuning.py`.
 
-### To re-generate predictions of MetaSVDD:
+### To reproduce predictions of MetaSVDD:
 
 > Code is tested on **Ubuntu 18.04.3 LTS** and **Python 3.7.10**
 >
@@ -85,7 +85,7 @@ To re-generate fine-tuned concept embedding, unzip the language model in `checkp
 
 To re-generate predictions of MetaSVDD, run `data_preprocessing.ipynb` first to generate necessary auxiliary files (e.g., refset concept embedding), and run `MetaSVDD.ipynb` to make predictions.
 
-### To reproduce results of Signature-extension
+### To reproduce predictions of Signature-extension
 
 > Code is tested on **Windows 10 20H2** , **Python 3.6.9** and **JDK-14**
 >
@@ -108,17 +108,17 @@ To reproduce `Signature-Extension` results, change the `java_path` specified in 
 
 The computation results of `Signature-Extension` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_extended_*/`
 
-### To reproduce results of star-modularization
+### To reproduce predictions of star-modularization
 
-To reproduce `Star-Modularization` results, create a new `maven` project with `jdk 1.8` using `IDEA`,  place `data/main/java`
+> Code is tested using `JetBrains IDEA` and `JDK-8`
+>
+> Usage:
+>
+> Open the directory `data/Star-Modularization/` with `IDEA` , open `File -> Project Structure`, change Project SDK to `1.8`. Then go to the `Libraries` section in the same window, include `TermSelection/Modularization_Experiments/UI_modularization/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar` as a java library, click `Apply`.
 
+ Run `src/main/java/SeedModuleExtractor.java`  to reproduce predictions of star-modularization
 
-
- run `src/main/java/SeedModuleExtractor.java` with `jdk 8`. Need one dependency `Modularization_Experiments/UI_modularization/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar`.
-
-> The computation results of `Star-Modularization` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_output_{random,select}_module_iri/`
-
-
+The computation results of `Star-Modularization` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_output_{random,select}_module_iri/`
 
 ## Modularization Experiments
 
