@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/owlapi-distribution-3.5.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-lang3-3.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/guava-21.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/guice-4.1.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/substance-4.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/trove4j-3.0.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ant-1.10.9"/>
+	<classpathentry kind="output" path="out/production/Locality_modularization"/>
+</classpath>

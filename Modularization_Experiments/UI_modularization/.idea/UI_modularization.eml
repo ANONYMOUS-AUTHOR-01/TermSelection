@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/UI_modularization"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="ant-1.8.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ant-1.8.2.jar!/"/>
+	</lib>
+	<lib name="commons-lang3-3.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/commons-lang3-3.6.jar!/"/>
+	</lib>
+	<lib name="elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar!/"/>
+	</lib>
+	<lib name="guava-27.1-jre.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/guava-27.1-jre.jar!/"/>
+	</lib>
+	<lib name="org.semanticweb.hermit-1.4.5.456.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/org.semanticweb.hermit-1.4.5.456.jar!/"/>
+	</lib>
+	<levels>
+		<level name="guava-27.1-jre" value="project"/>
+		<level name="ant-1.8.2" value="project"/>
+		<level name="elk-owlapi4-tryout-0.0.1-SNAPSHOT" value="project"/>
+		<level name="commons-lang3-3.6" value="project"/>
+		<level name="org.semanticweb.hermit-1.4.5.456" value="project"/>
+	</levels>
+</component>

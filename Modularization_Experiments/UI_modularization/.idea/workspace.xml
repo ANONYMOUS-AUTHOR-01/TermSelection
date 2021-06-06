@@ -6,34 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b8b42-fd01-4fd5-8f4b-6134458a5cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ant_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_27_1_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IJCAI_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJCAI_2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/TestForgetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/TestForgetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/statistical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/statistical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/extraction/SubsetExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/extraction/SubsetExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/Forgetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/Forgetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/LDiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/LDiff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/queueComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/queueComparator2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/DefinerIntroducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/DefinerIntroducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/Inferencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/Inferencer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestForgetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestForgetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/statistical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/statistical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forgetting/Forgetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forgetting/Forgetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forgetting/LDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forgetting/LDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inference/DefinerIntroducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/DefinerIntroducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inference/Inferencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/Inferencer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/BioPortal.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/Oxford-ISG.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/SNOMED_CT_PART1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/SNOMED_CT_PART2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/Snomed CT/snomed_ct_interntional.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="b46b8b42-fd01-4fd5-8f4b-6134458a5cf9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,18 +51,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/ISWC_2021_jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.Forgetter">
     <configuration name="Forgetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="forgetting.Forgetter" />
-      <module name="IJCAI_2021" />
+      <module name="UI_modularization" />
       <option name="VM_PARAMETERS" value="-Xmx20g -Xms20g" />
       <extension name="coverage">
         <pattern>
@@ -152,6 +125,117 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="IJCAI_2021" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="IJCAI_2021" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="IJCAI_2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="IJCAI_2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="IJCAI_2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="IJCAI_2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Forgetter" />
@@ -235,35 +319,47 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616146743903">
+    <state x="795" y="259" key="#Forgetter" timestamp="1622966257518">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
-    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1616146743903" />
-    <state x="543" y="235" key="FileChooserDialogImpl" timestamp="1615714992685">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="795" y="259" key="#Forgetter/0.0.2194.1204@0.0.2194.1204" timestamp="1622966257518" />
+    <state x="690" y="261" key="#Project_Structure" timestamp="1622965606065">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="690" y="261" key="#Project_Structure/0.0.2194.1204@0.0.2194.1204" timestamp="1622965606065" />
+    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622965678750">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1622965678750" />
+    <state x="944" y="491" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1622965118371">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="944" y="491" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1622965118371" />
+    <state x="775" y="343" key="FileChooserDialogImpl" timestamp="1622965986566">
+      <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state x="543" y="235" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615714992685" />
-    <state x="775" y="343" key="FileChooserDialogImpl/0.0.2194.1204@0.0.2194.1204" timestamp="1614922120085" />
-    <state width="2151" height="736" key="GridCell.Tab.0.bottom" timestamp="1616732093744">
+    <state x="775" y="343" key="FileChooserDialogImpl/0.0.2194.1204@0.0.2194.1204" timestamp="1622965986566" />
+    <state width="2151" height="327" key="GridCell.Tab.0.bottom" timestamp="1622967313508">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state width="1219" height="318" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
-    <state width="2151" height="736" key="GridCell.Tab.0.bottom/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
-    <state width="2151" height="736" key="GridCell.Tab.0.center" timestamp="1616732093744">
+    <state width="2151" height="327" key="GridCell.Tab.0.bottom/0.0.2194.1204@0.0.2194.1204" timestamp="1622967313508" />
+    <state width="2151" height="327" key="GridCell.Tab.0.center" timestamp="1622967313508">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state width="1219" height="318" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
-    <state width="2151" height="736" key="GridCell.Tab.0.center/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
-    <state width="2151" height="736" key="GridCell.Tab.0.left" timestamp="1616732093739">
+    <state width="2151" height="327" key="GridCell.Tab.0.center/0.0.2194.1204@0.0.2194.1204" timestamp="1622967313508" />
+    <state width="2151" height="327" key="GridCell.Tab.0.left" timestamp="1622967313507">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state width="1219" height="318" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
-    <state width="2151" height="736" key="GridCell.Tab.0.left/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093739" />
-    <state width="2151" height="736" key="GridCell.Tab.0.right" timestamp="1616732093744">
+    <state width="2151" height="327" key="GridCell.Tab.0.left/0.0.2194.1204@0.0.2194.1204" timestamp="1622967313507" />
+    <state width="2151" height="327" key="GridCell.Tab.0.right" timestamp="1622967313508">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state width="1219" height="318" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
-    <state width="2151" height="736" key="GridCell.Tab.0.right/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
+    <state width="2151" height="327" key="GridCell.Tab.0.right/0.0.2194.1204@0.0.2194.1204" timestamp="1622967313508" />
     <state width="2151" height="413" key="GridCell.Tab.1.bottom" timestamp="1616409081422">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
@@ -280,26 +376,19 @@
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state width="2151" height="413" key="GridCell.Tab.1.right/0.0.2194.1204@0.0.2194.1204" timestamp="1616409081422" />
-    <state x="578" y="177" key="SettingsEditor" timestamp="1616230375453">
+    <state x="578" y="177" key="SettingsEditor" timestamp="1622966820246">
       <screen x="0" y="0" width="2194" height="1204" />
     </state>
     <state x="405" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1616159073011" />
-    <state x="578" y="177" key="SettingsEditor/0.0.2194.1204@0.0.2194.1204" timestamp="1616230375453" />
+    <state x="578" y="177" key="SettingsEditor/0.0.2194.1204@0.0.2194.1204" timestamp="1622966820246" />
     <state x="546" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1616595768763">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="546" y="295" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1616595768763" />
     <state x="780" y="426" key="com.intellij.ide.util.TipDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1616244708764" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/forgetting/Forgetter.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="467" y="297" key="new project wizard" timestamp="1622965988766">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="467" y="297" key="new project wizard/0.0.2194.1204@0.0.2194.1204" timestamp="1622965988766" />
   </component>
 </project>

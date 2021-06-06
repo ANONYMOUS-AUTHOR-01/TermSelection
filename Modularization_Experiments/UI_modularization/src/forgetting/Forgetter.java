@@ -370,7 +370,7 @@ public class Forgetter {
 		System.out.println(System.getProperty("user.dir"));
 		String[] ontology_names = {"ncit","foodon","helis"};
 		String[] ontology_file_names = {"ncit_20.12d.owl","foodon-merged.owl","helis_v1.00.origin.owl"};
-		Integer ontology_index = 1;
+		Integer ontology_index = 2;
 		String input_o = "..\\test_ontologies\\"+ontology_file_names[ontology_index];
 
 		String per = "0.1";

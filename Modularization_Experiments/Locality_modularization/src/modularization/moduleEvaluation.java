@@ -1190,8 +1190,8 @@ public class moduleEvaluation {
 
         moduleEvaluation evaluation = new moduleEvaluation();
 
-        FileWriter wrt = new FileWriter(new File("../test_terms/loc_star_size.txt"));
-        wrt.write("filename\tsize\t");
+//        FileWriter wrt = new FileWriter(new File("../test_terms/loc_star_size.txt"));
+//        wrt.write("filename\tsize\t");
         for(String per:pers){
             OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
             OWLOntology whole_onto = manager.loadOntologyFromOntologyDocument(new File(input_o));
