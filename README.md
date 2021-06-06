@@ -22,11 +22,13 @@ To reproduce `NN-RANK` results, unzip the *pre-computed concept embedding* in `d
 
 To reproduce `NN-RANK + fine-tuning` results, unzip the language model in `checkpoints/`, and run `NNRANK_finetuning.py`.
 
-> Requirements for reproducing `NN-RANK + fine-tuning` results are specified in `ft_requirements.txt`
+> Requirements for reproducing `NN-RANK + fine-tuning` results are specified in `ft_requirements.txt`， the environment can be created by running 'python3 -m pip install -r ft_requirements.txt' in Unix/mxOS or 'py -m pip install -r ft_requirements.txt' in Windows.
+>
+> Requirements for reproducing `Meta_SVDD `results are specified in `mta_requirements.txt`.
 
 ### For reproduce results of other models
 
-To reproduce `Star-Modularization` results, run `src/main/java/SeedModuleExtractor.java` with `jdk 8`.  The requirements are specified in `pom.xml`.
+To reproduce `Star-Modularization` results, run `src/main/java/SeedModuleExtractor.java` with `jdk 8`. Need one dependency `Modularization_Experiments/UI_modularization/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar`.
 
 > The computation results of `Star-Modularization` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_output_{random,select}_module_iri/`
 

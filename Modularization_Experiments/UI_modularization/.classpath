@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="ant-1.8.2.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="guava-27.1-jre.jar"/>
+	<classpathentry kind="lib" path="org.semanticweb.hermit-1.4.5.456.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/guava-27.1-jre"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ant-1.8.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/elk-owlapi4-tryout-0.0.1-SNAPSHOT"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-lang3-3.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.semanticweb.hermit-1.4.5.456"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_271"/>
+	<classpathentry kind="output" path="out/production/UI_modularization"/>
+</classpath>

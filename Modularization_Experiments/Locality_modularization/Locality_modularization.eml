@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Locality_modularization"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="owlapi-distribution-3.5.4" value="project"/>
+		<level name="commons-lang3-3.6" value="project"/>
+		<level name="guava-21.0" value="project"/>
+		<level name="guice-4.1.0" value="project"/>
+		<level name="substance-4.3" value="project"/>
+		<level name="trove4j-3.0.3" value="project"/>
+	</levels>
+</component>

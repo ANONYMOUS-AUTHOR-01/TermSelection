@@ -18,9 +18,9 @@ public class moduleTest {
         String[] ontology_file_names = {"ncit_20.12d.owl","foodon-merged.owl","helis_v1.00.origin.owl"};
         Integer ontology_index = 2;
 //        String[] pers = {"0.1","0.3","0.5","0.7"};
+        String per = "0.1";
         String type = "star";
         String input_o = "..\\test_ontologies\\"+ontology_file_names[ontology_index];
-
         OWLOntologyManager manager1 = OWLManager.createOWLOntologyManager();
         OWLDataFactory factory = manager1.getOWLDataFactory();
         OWLOntology input_onto = manager1.loadOntologyFromOntologyDocument(new File(input_o));
@@ -53,14 +53,14 @@ public class moduleTest {
                 for(OWLClass c:moduleClasses){
                     moduleClasses_str.add(c.getIRI().toString());
                 }
-                BufferedWriter out = new BufferedWriter(new FileWriter("..\\test_terms\\"+ontology_names[ontology_index]+"-seed-locality-"+type+"\\concept\\"+concept_file.substring(0,concept_file.length()-4)+".txt"));
+                BufferedWriter out = new BufferedWriter(new FileWriter("..\\test_terms\\helis-locality-"+type+"\\"+concept_file.substring(0,concept_file.length()-4)+"_"+per+".txt"));
                 Iterator it = moduleClasses_str.iterator();
                 while(it.hasNext()){
                     out.write((String)it.next());
                     out.newLine();
                 }
                 out.close();
-                OutputStream os = new FileOutputStream("..\\test_terms\\"+ontology_names[ontology_index]+"-seed-locality-"+type+"\\ontology\\"+concept_file.substring(0,concept_file.length()-4)+".owl");
+                OutputStream os = new FileOutputStream("..\\test_terms\\helis-locality-"+type+"\\"+concept_file.substring(0,concept_file.length()-4)+"_"+per+".owl");
                 manager1.saveOntology(module_onto, new OWLXMLOntologyFormat(), os);
             }
 //        }
