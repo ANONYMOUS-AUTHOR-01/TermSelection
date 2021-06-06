@@ -10,13 +10,14 @@ ontology_name = 'SnomedCT'
 depth = 2
 
 seed_dir = 'data/{}/nhs_seed_random_iri/'.format(ontology_name)
-ontology_path = 'data/SnomedCT/ontology_202007.owl'
+ontology_path = 'data/SnomedCT/ontology.owl'
 #ontology_path = 'data/HeLis/helis_v1.00.origin.owl'
 
 create_sig_owlfiles_jar = 'Create-sig-owlfiles.jar'
 sig_extension_jar = 'sigExtension-ghadah.jar'
 tmp_dir = 'temp/'
 
+# insert your java path here
 java_path = r'"C:\Program Files\Java\jdk-14\bin\java.exe"'
 
 ontology_path = os.path.abspath(ontology_path)
