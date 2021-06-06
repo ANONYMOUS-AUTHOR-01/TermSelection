@@ -2,29 +2,88 @@
 
 ## Term Selection Experiments
 
-### For detailed results
+### To show or compute detailed results
 
-**Detailed experiments result are placed in `result/`, and `show_result.ipynb` is used to show the metrics (mean, standard error, etc.) of these experiments.**
+> Code is tested on **Ubuntu 18.04.3 LTS** and **Python 3.6.9**
+>
+> To install the dependencies, we recommend building a virtual environment with `venv`.
+>
+> Usage:
+>
+> ```bash
+> git clone https://github.com/ANONYMOUS-AUTHOR-01/TermSelection.git
+> cd TermSelection
+> cat data/SnomedCT/concept_embedding.z* > data/SnomedCT/concept_embedding_cat.zip
+> unzip data/SnomedCT/concept_embedding_cat.zip data/SnomedCT/
+> 
+> python3 -m venv ts_general_env
+> source ts_general_env/bin/activate
+> pip3 install -r general_requirements.txt
+> jupyter notebook
+> ```
+>
+> Connect to the `jupyter notebook` service by keying the prompted URL in your browser, then open  `show_result.ipynb` or `compute_result.ipynb`to run the code blocks.
 
-> General requirements: Python 3.7 with the following packages: numpy, scikit-learn, pandas. All third-party modules should be up-to-date.
+Detailed experiments result are placed in `result/`, and `show_result.ipynb` is used to show the metrics (mean, standard deviation, etc.) of these experiments.
 
 The NHS/NRC refsets are placed in `data/SnomedCT/{nhs_nrc}_refset_iri/`
 
 The seed signatures are placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_iri/`
 
-### For reproduce NN-RANK and NN-RANK  + fine-tuning results
+To reproduce results of different models, use `compute_result.ipynb` following the instructions above.
 
-> To reproduce all the results, file paths specified in each scripts should be set accordingly based on the current (refset, seed_signature) pair.
+### To re-generate concept & fine-tuning
 
-To reproduce `NN-RANK` results, unzip the *pre-computed concept embedding* in `data/SnomedCT/concept_embedding.zip`, and run the `NN_rank random` and `NN_rank select` sections in `compute_result.ipynb`
-
-> The pre-computed concept embedding is generated using the original version of OWL2Vec\*. For re-generating concept embedding,  use `python OWL2Vec_Plus.py`.  The corpus needed by OWL2Vec\* can be generated according to [this paper](https://arxiv.org/pdf/2009.14654.pdf).
-
-To reproduce `NN-RANK + fine-tuning` results, unzip the language model in `checkpoints/`, and run `NNRANK_finetuning.py`.
-
-> Requirements for reproducing `NN-RANK + fine-tuning` results are specified in `ft_requirements.txt`， the environment can be created by running 'python3 -m pip install -r ft_requirements.txt' in Unix/mxOS or 'py -m pip install -r ft_requirements.txt' in Windows.
+> Code is tested on **Ubuntu 18.04.3 LTS** and **Python 3.6.9**
 >
-> Requirements for reproducing `Meta_SVDD `results are specified in `mta_requirements.txt`.
+> To install the dependencies, we recommend building a virtual environment with `venv`.
+>
+> Usage:
+>
+> ```bash
+> git clone https://github.com/ANONYMOUS-AUTHOR-01/TermSelection.git
+> cd TermSelection
+> unzip data/SnomedCT/ontology.zip -d data/SnomedCT/
+> 
+> python3 -m venv ts_embed_env
+> source ts_embed_env/bin/activate
+> pip3 install -r embed_requirements.txt
+> 
+> python3 Generate_embedding.py`
+> 
+> cat checkpoints/model.z* > checkpoints/model_cat.zip
+> unzip checkpoints/model_cat.zip checkpoints/
+> python3 NNRANK_finetuning.py
+> ```
+
+The pre-computed concept embedding is stored in`data/SnomedCT/concept_embedding.csv`. 
+
+To re-generate concept embedding,  use `python3 Generate_embedding.py`.
+
+To re-generate fine-tuned concept embedding, unzip the language model in `checkpoints/`, and run `NNRANK_finetuning.py`.
+
+### To re-generate predictions of MetaSVDD:
+
+> Code is tested on **Ubuntu 18.04.3 LTS** and **Python 3.7.10**
+>
+> To install the dependencies, we recommend building a virtual environment with `venv`.
+>
+> Usage:
+>
+> ```bash
+> git clone https://github.com/ANONYMOUS-AUTHOR-01/TermSelection.git
+> cd TermSelection
+> 
+> python3 -m venv ts_mta_env
+> source ts_mta_env/bin/activate
+> pip3 install -r metasvdd_requirements.txt
+> pip3 install --upgrade scikit-learn
+> 
+> notebook
+> ```
+> Connect to the `jupyter notebook` service by keying the prompted URL in your browser, then open  `data_preprocessing.ipynb` and `MetaSVDD.ipynb` to run the code blocks.
+
+To re-generate predictions of MetaSVDD, run `data_preprocessing.ipynb` first to generate all necessary auxiliary files, and run `MetaSVDD.ipynb` to make predictions.
 
 ### For reproduce results of other models
 
