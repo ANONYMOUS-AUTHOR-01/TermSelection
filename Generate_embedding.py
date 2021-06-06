@@ -9,8 +9,8 @@ import sys
 from nltk import word_tokenize
 import time
 
-sys.path.append('../rdf2vec/')
-sys.path.append('../lib/')
+sys.path.append('./rdf2vec/')
+sys.path.append('./lib/')
 sys.path.append('.')
 from Evaluator import Evaluator
 from RDF2Vec_Embed import get_rdf2vec_walks
@@ -99,7 +99,6 @@ def embed(model, instances):
 
     return feature_vectors
 
-
 def pre_process_words(words):
     text = ' '.join([re.sub(r'https?:\/\/.*[\r\n]*', '', word, flags=re.MULTILINE) for word in words])
     tokens = word_tokenize(text)
@@ -109,18 +108,19 @@ def pre_process_words(words):
 import pickle
 from tqdm import tqdm
 
-print("\n		1.Extract corpus and learning embedding ... \n")
-classes = [line.strip() for line in open(FLAGS.class_file).readlines()]
-candidate_num = len(classes)
-uri_label = dict()
-annotations = list()
 
-for line in tqdm(open(FLAGS.annotation_file, encoding='utf-8').readlines()):
-    tmp = line.strip().split()
-    if tmp[1] == 'http://www.w3.org/2000/01/rdf-schema#label':
-        uri_label[tmp[0]] = pre_process_words(tmp[2:])
-    elif tmp[0] in classes:
-        annotations.append(tmp)
+print("\n		1.Extract corpus and learning embedding ... \n")
+#classes = [line.strip() for line in open(FLAGS.class_file).readlines()]
+# candidate_num = len(classes)
+# uri_label = dict()
+# annotations = list()
+
+# for line in tqdm(open(FLAGS.annotation_file, encoding='utf-8').readlines()):
+#     tmp = line.strip().split()
+#     if tmp[1] == 'http://www.w3.org/2000/01/rdf-schema#label':
+#         uri_label[tmp[0]] = pre_process_words(tmp[2:])
+#     elif tmp[0] in classes:
+#         annotations.append(tmp)
 
 # with open("./classes.pkl", 'wb') as f:
 #     pickle.dump(classes, f)
@@ -130,6 +130,7 @@ for line in tqdm(open(FLAGS.annotation_file, encoding='utf-8').readlines()):
 #     pickle.dump(annotations, f)
 # print("done")
 # exit()
+
 
 with open('./classes.pkl', 'rb') as f:
     classes = pickle.load(f)
@@ -253,12 +254,6 @@ random.shuffle(all_doc)
 # with open("./ALL_DOC.pkl", 'wb') as f:
 #     pickle.dump(all_doc, f)
 
-# with open('./ALL_DOC.pkl', 'rb') as f:
-#     all_doc = pickle.load(f)
-
-# with open('123.txt', 'r', encoding='utf-8') as f:
-#     all_doc = f.readlines()
-
 # from utils import EpochSaver
 
 print("Load done")
@@ -266,11 +261,11 @@ print("Load done")
 iteration = 20
 # # learn the embeddings
 model_ = gensim.models.Word2Vec(all_doc, size=FLAGS.embedsize, window=5, workers=multiprocessing.cpu_count(),
-                                sg=1, iter=iteration , negative=25, min_count=1, seed=42, callbacks=[EpochSaver("./checkpoints")])
+                                sg=1, iter=iteration , negative=25, min_count=1, seed=42)
 
-for i in [20]:
-    model_ = gensim.models.Word2Vec.load('./checkpoints/epoch_{}.model'.format(i))
-    print("MODEL DONE")
-    classes_e = embed(model=model_, instances=classes)
-    #np.savetxt('export_class.csv', classes, fmt="%s")
-    np.savetxt('export_classes_e_{}.csv'.format(i), classes_e, fmt="%.8f")
+# for i in [20]:
+#     model_ = gensim.models.Word2Vec.load('./checkpoints/epoch_{}.model'.format(i))
+#     print("MODEL DONE")
+#     classes_e = embed(model=model_, instances=classes)
+#     #np.savetxt('export_class.csv', classes, fmt="%s")
+#     np.savetxt('export_classes_e_{}.csv'.format(i), classes_e, fmt="%.8f")
