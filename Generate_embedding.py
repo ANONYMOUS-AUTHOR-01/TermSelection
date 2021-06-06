@@ -16,7 +16,7 @@ from Evaluator import Evaluator
 from RDF2Vec_Embed import get_rdf2vec_walks
 
 parser = argparse.ArgumentParser(description="The is to evaluate RDF2Vec.")
-parser.add_argument("--onto_file", type=str, default="ontology.owl")
+parser.add_argument("--onto_file", type=str, default="data/SnomedCT/ontology.owl")
 parser.add_argument("--train_file", type=str, default="train.csv")
 parser.add_argument("--valid_file", type=str, default="valid.csv")
 parser.add_argument("--test_file", type=str, default="test.csv")
