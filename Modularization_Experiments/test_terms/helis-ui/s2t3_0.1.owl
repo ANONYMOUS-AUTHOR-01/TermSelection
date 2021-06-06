@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#LegumesAndLegumeProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetSnacksAndBrioches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#contains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MilkAndDairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#FruitJuices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ChocolateAndCocoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#BiscuitsAndCrackers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VegetalFatsAndOils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SausagesAndColdCuts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#AnimalFatsAndOils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetsAndCakesMakingProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#PizzaAndFocacciaBread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetBeveragesAndJuices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetSpreads"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Syrups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MilkAndYogurt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VegetablesAndLegumes"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#AnimalFatsAndOils"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#BiscuitsAndCrackers"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ChocolateAndCocoa"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#FruitJuices"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetBeveragesAndJuices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#LegumesAndLegumeProducts"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VegetablesAndLegumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MilkAndYogurt"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MilkAndDairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#PizzaAndFocacciaBread"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SausagesAndColdCuts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#contains"/>
+            <Class IRI="Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetSnacksAndBrioches"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetSpreads"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SweetsAndCakesMakingProducts"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Syrups"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VegetalFatsAndOils"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#HomeActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SexualActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Miscellaneous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ModerateActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Inactivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Sports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#hasViolationUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SelfCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VolunteerActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#HomeRepair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#LightActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VigorousActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Violation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#hasViolationRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MusicPlaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SpecialBread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ReligiousActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#WhiteBread"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#HomeActivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#HomeRepair"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Inactivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#LightActivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Miscellaneous"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ModerateActivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#MusicPlaying"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#ReligiousActivities"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SelfCare"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SexualActivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#SpecialBread"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Bread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Sports"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Transportation"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VigorousActivity"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#VolunteerActivities"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#WhiteBread"/>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Bread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#hasViolationRule"/>
+            <Class IRI="Thing"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Violation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.fbk.eu/ontologies/virtualcoach#hasViolationUser"/>
+            <Class IRI="Thing"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="http://www.fbk.eu/ontologies/virtualcoach#Violation"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9) https://github.com/owlcs/owlapi -->
+
