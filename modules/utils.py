@@ -12,8 +12,8 @@ concept_label_file = 'data/SnomedCT/concept_label.csv'
 
 refset_txt_dir = 'data/SnomedCT/nrc_refset_iri/'
 refset_iri_dir = 'data/SnomedCT/nrc_refset_iri/'
-refset_label_dir = 'data/SnomedCT/refset_label/'
-refset_embed_dir = 'data/SnomedCT/refset_embed/'
+refset_label_dir = 'data/SnomedCT/nrc_refset_label/'
+refset_embed_dir = 'data/SnomedCT/nrc_refset_embed/'
 seed_random_iri_dir = 'data/SnomedCT/nrc_seed_random_iri/'
 seed_select_iri_dir = 'data/SnomedCT/nrc_seed_select_iri/'
 
