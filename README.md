@@ -49,7 +49,7 @@ To **reproduce results of NN-RANK** and other baseline models, use `compute_resu
 > source ts_embed_env/bin/activate
 > pip3 install -r embed_requirements.txt
 > 
-> python3 Generate_embedding.py`
+> python3 Generate_embedding.py
 > 
 > cat checkpoints/model.z* > checkpoints/model_cat.zip
 > unzip checkpoints/model_cat.zip checkpoints/
