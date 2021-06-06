@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#Cystine
+http://www.fbk.eu/ontologies/virtualcoach#FreshMollusc
+http://www.fbk.eu/ontologies/virtualcoach#Syrups
+http://www.fbk.eu/ontologies/virtualcoach#ReligiousActivities

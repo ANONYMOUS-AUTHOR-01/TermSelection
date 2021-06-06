@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#Fish
+http://www.fbk.eu/ontologies/virtualcoach#FishAndSeafood
+http://www.fbk.eu/ontologies/virtualcoach#Meat
+http://www.fbk.eu/ontologies/virtualcoach#Mineral
+http://www.fbk.eu/ontologies/virtualcoach#OtherMeat
+http://www.fbk.eu/ontologies/virtualcoach#VealFattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#Zinc

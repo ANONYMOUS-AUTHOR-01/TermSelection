@@ -1,0 +1,7 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#ApolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Bicycling
+http://www.fbk.eu/ontologies/virtualcoach#Dancing
+http://www.fbk.eu/ontologies/virtualcoach#Protein
+http://www.fbk.eu/ontologies/virtualcoach#Valine
+http://www.fbk.eu/ontologies/virtualcoach#VegetalProtein

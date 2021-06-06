@@ -1,0 +1,7 @@
+http://www.fbk.eu/ontologies/virtualcoach#Carbs
+http://www.fbk.eu/ontologies/virtualcoach#Cereals
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts
+http://www.fbk.eu/ontologies/virtualcoach#CornMealMush
+http://www.fbk.eu/ontologies/virtualcoach#Fructose
+http://www.fbk.eu/ontologies/virtualcoach#Vitamin
+http://www.fbk.eu/ontologies/virtualcoach#VitaminB2

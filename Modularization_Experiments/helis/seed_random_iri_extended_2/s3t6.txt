@@ -1,0 +1,6 @@
+http://www.fbk.eu/ontologies/virtualcoach#ApolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Dressing
+http://www.fbk.eu/ontologies/virtualcoach#Isoleucine
+http://www.fbk.eu/ontologies/virtualcoach#LeanGameMeat
+http://www.fbk.eu/ontologies/virtualcoach#OtherMeat
+http://www.fbk.eu/ontologies/virtualcoach#VinegarDressing

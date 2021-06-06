@@ -1,0 +1,5 @@
+http://snomed.info/id/70143003
+http://snomed.info/id/21560005
+http://snomed.info/id/416257001
+http://snomed.info/id/240403008
+http://snomed.info/id/416257001

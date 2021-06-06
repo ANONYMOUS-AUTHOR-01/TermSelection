@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#VegetalProtein
+http://www.fbk.eu/ontologies/virtualcoach#Bicycling
+http://www.fbk.eu/ontologies/virtualcoach#Dancing
+http://www.fbk.eu/ontologies/virtualcoach#Valine

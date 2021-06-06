@@ -1,0 +1,6 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#BasicFood
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts
+http://www.fbk.eu/ontologies/virtualcoach#Flour
+http://www.fbk.eu/ontologies/virtualcoach#LawnGarden
+http://www.fbk.eu/ontologies/virtualcoach#VegetablesAndLegumes

@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#SweetSpreads
+http://www.fbk.eu/ontologies/virtualcoach#MusicPlaying
+http://www.fbk.eu/ontologies/virtualcoach#Pasta
+http://www.fbk.eu/ontologies/virtualcoach#Profile
+http://www.fbk.eu/ontologies/virtualcoach#Week

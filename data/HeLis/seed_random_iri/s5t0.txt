@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#Cholesterol
+http://www.fbk.eu/ontologies/virtualcoach#WaterActivities
+http://www.fbk.eu/ontologies/virtualcoach#MyristoleicAcid
+http://www.fbk.eu/ontologies/virtualcoach#PalmitoleicAcid
+http://www.fbk.eu/ontologies/virtualcoach#VegetalOils

@@ -1,0 +1,3 @@
+http://www.fbk.eu/ontologies/virtualcoach#LawnGarden
+http://www.fbk.eu/ontologies/virtualcoach#VegetablesAndLegumes
+http://www.fbk.eu/ontologies/virtualcoach#Flour

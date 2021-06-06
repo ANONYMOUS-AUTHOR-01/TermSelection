@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#LeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#PoultryLeanWhiteMeat

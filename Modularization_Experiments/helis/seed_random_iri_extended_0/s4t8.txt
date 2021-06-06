@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#AnimalLipid
+http://www.fbk.eu/ontologies/virtualcoach#BasicFood
+http://www.fbk.eu/ontologies/virtualcoach#GlutamicAcid
+http://www.fbk.eu/ontologies/virtualcoach#LambLeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#LeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#PolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#SausagesAndColdCuts

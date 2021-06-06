@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#SexualActivity
+http://www.fbk.eu/ontologies/virtualcoach#Sports
+http://www.fbk.eu/ontologies/virtualcoach#MusicPlaying
+http://www.fbk.eu/ontologies/virtualcoach#LinoleicAcid
+http://www.fbk.eu/ontologies/virtualcoach#Bread

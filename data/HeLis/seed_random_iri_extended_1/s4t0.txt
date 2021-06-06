@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#AdultBovineLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Dressing
+http://www.fbk.eu/ontologies/virtualcoach#Food
+http://www.fbk.eu/ontologies/virtualcoach#Jam
+http://www.fbk.eu/ontologies/virtualcoach#LeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#LeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#SweetSpreads
+http://www.fbk.eu/ontologies/virtualcoach#WhiteMeat

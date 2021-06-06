@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#MonounsaturatedLipid
+http://www.fbk.eu/ontologies/virtualcoach#Rice

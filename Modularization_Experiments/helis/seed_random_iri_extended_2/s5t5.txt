@@ -1,0 +1,9 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#FreshShellfish
+http://www.fbk.eu/ontologies/virtualcoach#FrozenVegetablesAndLegumes
+http://www.fbk.eu/ontologies/virtualcoach#Meat
+http://www.fbk.eu/ontologies/virtualcoach#OtherMeat
+http://www.fbk.eu/ontologies/virtualcoach#Protein
+http://www.fbk.eu/ontologies/virtualcoach#Shellfish
+http://www.fbk.eu/ontologies/virtualcoach#VegetablesAndLegumes
+http://www.fbk.eu/ontologies/virtualcoach#VegetalProtein

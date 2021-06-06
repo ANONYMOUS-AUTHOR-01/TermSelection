@@ -1,0 +1,9 @@
+http://www.fbk.eu/ontologies/virtualcoach#Aminoacid
+http://www.fbk.eu/ontologies/virtualcoach#BasicFood
+http://www.fbk.eu/ontologies/virtualcoach#FattyRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Flour
+http://www.fbk.eu/ontologies/virtualcoach#PolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Salt
+http://www.fbk.eu/ontologies/virtualcoach#SausagesAndColdCuts
+http://www.fbk.eu/ontologies/virtualcoach#Spices
+http://www.fbk.eu/ontologies/virtualcoach#WheatFour

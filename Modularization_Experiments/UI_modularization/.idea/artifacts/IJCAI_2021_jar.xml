@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IJCAI_2021:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IJCAI_2021_jar</output-path>
+    <root id="archive" name="IJCAI_2021.jar">
+      <element id="module-output" name="IJCAI_2021" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/org.semanticweb.hermit-1.4.5.456.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-lang3-3.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

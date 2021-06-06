@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#AdultBovineLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#BasicFood
+http://www.fbk.eu/ontologies/virtualcoach#Fruits
+http://www.fbk.eu/ontologies/virtualcoach#LeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Mineral
+http://www.fbk.eu/ontologies/virtualcoach#PorkLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Salt
+http://www.fbk.eu/ontologies/virtualcoach#Zinc

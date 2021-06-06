@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#PolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Threonine

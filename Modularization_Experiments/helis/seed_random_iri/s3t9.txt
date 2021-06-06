@@ -1,0 +1,3 @@
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#VitaminB1
+http://www.fbk.eu/ontologies/virtualcoach#ColdCuts

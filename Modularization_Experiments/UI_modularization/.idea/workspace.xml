@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IJCAI_2021:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b46b8b42-fd01-4fd5-8f4b-6134458a5cf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ant_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_27_1_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IJCAI_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJCAI_2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/TestForgetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/TestForgetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/statistical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/Test/statistical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/extraction/SubsetExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/extraction/SubsetExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/Forgetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/Forgetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/LDiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/LDiff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/queueComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/forgetting/queueComparator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/DefinerIntroducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/DefinerIntroducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/Inferencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJCAI_2021/inference/Inferencer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestForgetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestForgetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/statistical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/statistical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forgetting/Forgetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forgetting/Forgetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forgetting/LDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forgetting/LDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/DefinerIntroducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/DefinerIntroducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/Inferencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/Inferencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/BioPortal.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/Oxford-ISG.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/SNOMED_CT_PART1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/SNOMED_CT_PART2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/Snomed CT/snomed_ct_interntional.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pKBZFuUEUVB8UC9yn1ze6coq4M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="Application.Forgetter">
+    <configuration name="Forgetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forgetting.Forgetter" />
+      <module name="IJCAI_2021" />
+      <option name="VM_PARAMETERS" value="-Xmx20g -Xms20g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forgetting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forgetting.LDiff" />
+      <module name="IJCAI_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forgetting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraction.SubsetExtractor" />
+      <module name="IJCAI_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestForgetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestForgetting" />
+      <module name="IJCAI_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="showData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apiForPy.showData" />
+      <module name="IJCAI_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiForPy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Forgetter" />
+      <item itemvalue="Application.LDiff" />
+      <item itemvalue="Application.SubsetExtractor" />
+      <item itemvalue="Application.TestForgetting" />
+      <item itemvalue="Application.showData" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Forgetter" />
+        <item itemvalue="Application.TestForgetting" />
+        <item itemvalue="Application.LDiff" />
+        <item itemvalue="Application.SubsetExtractor" />
+        <item itemvalue="Application.showData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b46b8b42-fd01-4fd5-8f4b-6134458a5cf9" name="Default Changelist" comment="" />
+      <created>1611316375323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611316375323</updated>
+      <workItem from="1611316380323" duration="843000" />
+      <workItem from="1611342403142" duration="8077000" />
+      <workItem from="1611492849309" duration="22785000" />
+      <workItem from="1612639140839" duration="324000" />
+      <workItem from="1614663422937" duration="372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32401000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616146743903">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="552" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1616146743903" />
+    <state x="543" y="235" key="FileChooserDialogImpl" timestamp="1615714992685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="235" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615714992685" />
+    <state x="775" y="343" key="FileChooserDialogImpl/0.0.2194.1204@0.0.2194.1204" timestamp="1614922120085" />
+    <state width="2151" height="736" key="GridCell.Tab.0.bottom" timestamp="1616732093744">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1219" height="318" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
+    <state width="2151" height="736" key="GridCell.Tab.0.bottom/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
+    <state width="2151" height="736" key="GridCell.Tab.0.center" timestamp="1616732093744">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1219" height="318" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
+    <state width="2151" height="736" key="GridCell.Tab.0.center/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
+    <state width="2151" height="736" key="GridCell.Tab.0.left" timestamp="1616732093739">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1219" height="318" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
+    <state width="2151" height="736" key="GridCell.Tab.0.left/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093739" />
+    <state width="2151" height="736" key="GridCell.Tab.0.right" timestamp="1616732093744">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1219" height="318" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616159876224" />
+    <state width="2151" height="736" key="GridCell.Tab.0.right/0.0.2194.1204@0.0.2194.1204" timestamp="1616732093744" />
+    <state width="2151" height="413" key="GridCell.Tab.1.bottom" timestamp="1616409081422">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="2151" height="413" key="GridCell.Tab.1.bottom/0.0.2194.1204@0.0.2194.1204" timestamp="1616409081422" />
+    <state width="2151" height="413" key="GridCell.Tab.1.center" timestamp="1616409081422">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="2151" height="413" key="GridCell.Tab.1.center/0.0.2194.1204@0.0.2194.1204" timestamp="1616409081422" />
+    <state width="2151" height="413" key="GridCell.Tab.1.left" timestamp="1616409081422">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="2151" height="413" key="GridCell.Tab.1.left/0.0.2194.1204@0.0.2194.1204" timestamp="1616409081422" />
+    <state width="2151" height="413" key="GridCell.Tab.1.right" timestamp="1616409081422">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="2151" height="413" key="GridCell.Tab.1.right/0.0.2194.1204@0.0.2194.1204" timestamp="1616409081422" />
+    <state x="578" y="177" key="SettingsEditor" timestamp="1616230375453">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="405" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1616159073011" />
+    <state x="578" y="177" key="SettingsEditor/0.0.2194.1204@0.0.2194.1204" timestamp="1616230375453" />
+    <state x="546" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1616595768763">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="546" y="295" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1616595768763" />
+    <state x="780" y="426" key="com.intellij.ide.util.TipDialog/0.0.2194.1204@0.0.2194.1204" timestamp="1616244708764" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/forgetting/Forgetter.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

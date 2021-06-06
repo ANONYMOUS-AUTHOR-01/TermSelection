@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#BasicFood
+http://www.fbk.eu/ontologies/virtualcoach#ConsumedFood
+http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils
+http://www.fbk.eu/ontologies/virtualcoach#Fish
+http://www.fbk.eu/ontologies/virtualcoach#FishAndSeafood

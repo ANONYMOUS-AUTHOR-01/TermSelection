@@ -1,0 +1,9 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#AlcoholicBeverages
+http://www.fbk.eu/ontologies/virtualcoach#Beer
+http://www.fbk.eu/ontologies/virtualcoach#Fish
+http://www.fbk.eu/ontologies/virtualcoach#FreshFish
+http://www.fbk.eu/ontologies/virtualcoach#Mineral
+http://www.fbk.eu/ontologies/virtualcoach#ReligiousActivities
+http://www.fbk.eu/ontologies/virtualcoach#Sports
+http://www.fbk.eu/ontologies/virtualcoach#Zinc

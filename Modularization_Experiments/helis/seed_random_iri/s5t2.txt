@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#Glucose
+http://www.fbk.eu/ontologies/virtualcoach#Zinc
+http://www.fbk.eu/ontologies/virtualcoach#Jam
+http://www.fbk.eu/ontologies/virtualcoach#LambFattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#Selenium

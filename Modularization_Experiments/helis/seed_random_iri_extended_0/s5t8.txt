@@ -1,0 +1,9 @@
+http://www.fbk.eu/ontologies/virtualcoach#AlcoholicBeverages
+http://www.fbk.eu/ontologies/virtualcoach#ApolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts
+http://www.fbk.eu/ontologies/virtualcoach#Food
+http://www.fbk.eu/ontologies/virtualcoach#LeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#PorkLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Rice
+http://www.fbk.eu/ontologies/virtualcoach#Valine
+http://www.fbk.eu/ontologies/virtualcoach#Wine

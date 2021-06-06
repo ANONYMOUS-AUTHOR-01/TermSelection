@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#FishAndSeafood
+http://www.fbk.eu/ontologies/virtualcoach#Lunch

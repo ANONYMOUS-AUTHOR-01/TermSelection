@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#MarinatedFish
+http://www.fbk.eu/ontologies/virtualcoach#Mushrooms
+http://www.fbk.eu/ontologies/virtualcoach#MyristoleicAcid
+http://www.fbk.eu/ontologies/virtualcoach#ProcessedFish
+http://www.fbk.eu/ontologies/virtualcoach#ProcessedMushrooms
+http://www.fbk.eu/ontologies/virtualcoach#VealFattyWhiteMeat

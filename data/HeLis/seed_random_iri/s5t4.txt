@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#NonAlcoholicBeverages
+http://www.fbk.eu/ontologies/virtualcoach#Sodium
+http://www.fbk.eu/ontologies/virtualcoach#MyristicAcid
+http://www.fbk.eu/ontologies/virtualcoach#OtherLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#SelfCare

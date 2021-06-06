@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#Histidine
+http://www.fbk.eu/ontologies/virtualcoach#OtherLeanRedMeat

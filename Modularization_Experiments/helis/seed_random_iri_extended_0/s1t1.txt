@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#WhiteMeat

@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#Vitamin
+http://www.fbk.eu/ontologies/virtualcoach#VitaminB1

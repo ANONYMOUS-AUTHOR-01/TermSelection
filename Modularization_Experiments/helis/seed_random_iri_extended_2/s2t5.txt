@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#ChocolateAndCocoa
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#PoultryFattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets

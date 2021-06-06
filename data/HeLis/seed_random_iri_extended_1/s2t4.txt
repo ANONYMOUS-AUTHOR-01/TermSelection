@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#DHAAcid
+http://www.fbk.eu/ontologies/virtualcoach#HomeActivity
+http://www.fbk.eu/ontologies/virtualcoach#Lipid

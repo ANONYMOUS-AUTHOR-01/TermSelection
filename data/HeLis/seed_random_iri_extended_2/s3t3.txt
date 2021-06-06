@@ -1,0 +1,6 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#FreshStarchyVegetables
+http://www.fbk.eu/ontologies/virtualcoach#Inactivity
+http://www.fbk.eu/ontologies/virtualcoach#LeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#RabbitLeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#StarchyVegetables

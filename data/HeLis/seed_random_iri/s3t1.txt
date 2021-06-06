@@ -1,0 +1,3 @@
+http://www.fbk.eu/ontologies/virtualcoach#PoultryLeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#WholeWheatFlour
+http://www.fbk.eu/ontologies/virtualcoach#AnimalFats

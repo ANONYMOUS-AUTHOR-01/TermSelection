@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#ConsumedFood
+http://www.fbk.eu/ontologies/virtualcoach#ProcessedShellfish
+http://www.fbk.eu/ontologies/virtualcoach#Tyrosine
+http://www.fbk.eu/ontologies/virtualcoach#FruitJuices

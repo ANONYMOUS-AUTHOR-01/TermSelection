@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#Inactivity
+http://www.fbk.eu/ontologies/virtualcoach#VolunteerActivities
+http://www.fbk.eu/ontologies/virtualcoach#ColdCuts
+http://www.fbk.eu/ontologies/virtualcoach#CannedVegetables

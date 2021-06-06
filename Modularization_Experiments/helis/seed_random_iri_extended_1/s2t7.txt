@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#CannedVegetables
+http://www.fbk.eu/ontologies/virtualcoach#FattyWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#ProcessedVegetables
+http://www.fbk.eu/ontologies/virtualcoach#WhiteMeat

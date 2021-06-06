@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#MonounsaturatedLipid
+http://www.fbk.eu/ontologies/virtualcoach#Rice

@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils
+http://www.fbk.eu/ontologies/virtualcoach#VegetalFatsAndOils

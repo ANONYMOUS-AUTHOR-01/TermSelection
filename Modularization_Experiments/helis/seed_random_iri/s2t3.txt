@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#PolyunsaturatedLipid
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts

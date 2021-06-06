@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#AnimalMilk
+http://www.fbk.eu/ontologies/virtualcoach#Breakfast
+http://www.fbk.eu/ontologies/virtualcoach#ButyricCaproicCaprylicCapricAcid
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#Meal
+http://www.fbk.eu/ontologies/virtualcoach#MilkAndYogurt
+http://www.fbk.eu/ontologies/virtualcoach#Vitamin
+http://www.fbk.eu/ontologies/virtualcoach#VitaminD

@@ -1,0 +1,5 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#EPAAcid
+http://www.fbk.eu/ontologies/virtualcoach#FruitJuices
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#SweetBeveragesAndJuices

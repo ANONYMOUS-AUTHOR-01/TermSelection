@@ -1,0 +1,8 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#ApolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Cystine
+http://www.fbk.eu/ontologies/virtualcoach#FreshMollusc
+http://www.fbk.eu/ontologies/virtualcoach#Mollusc
+http://www.fbk.eu/ontologies/virtualcoach#ReligiousActivities
+http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets
+http://www.fbk.eu/ontologies/virtualcoach#Syrups

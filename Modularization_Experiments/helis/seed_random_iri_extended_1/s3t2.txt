@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#Alanine
+http://www.fbk.eu/ontologies/virtualcoach#ApolarAminoacid
+http://www.fbk.eu/ontologies/virtualcoach#Meal
+http://www.fbk.eu/ontologies/virtualcoach#Nutrient

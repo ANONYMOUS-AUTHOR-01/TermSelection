@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#Bread
+http://www.fbk.eu/ontologies/virtualcoach#SpecialBread

@@ -1,0 +1,10 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#Dinner
+http://www.fbk.eu/ontologies/virtualcoach#LinolenicAcid
+http://www.fbk.eu/ontologies/virtualcoach#Lipid
+http://www.fbk.eu/ontologies/virtualcoach#Meal
+http://www.fbk.eu/ontologies/virtualcoach#ProcessedVegetables
+http://www.fbk.eu/ontologies/virtualcoach#SexualActivity
+http://www.fbk.eu/ontologies/virtualcoach#StarchyFreeVegetables
+http://www.fbk.eu/ontologies/virtualcoach#Vitamin
+http://www.fbk.eu/ontologies/virtualcoach#VitaminC

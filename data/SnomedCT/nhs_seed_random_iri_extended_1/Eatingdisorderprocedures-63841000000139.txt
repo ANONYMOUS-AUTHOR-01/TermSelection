@@ -1,0 +1,10 @@
+http://snomed.info/id/252294009
+http://snomed.info/id/314034001
+http://snomed.info/id/416838001
+http://snomed.info/id/430925007
+http://snomed.info/id/55235003
+http://snomed.info/id/56342008
+http://snomed.info/id/61746007
+http://snomed.info/id/718023002
+http://snomed.info/id/74040009
+http://snomed.info/id/83729008

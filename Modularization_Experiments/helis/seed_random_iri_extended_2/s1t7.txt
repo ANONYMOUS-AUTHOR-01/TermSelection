@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#AdultSheepFattyRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#FattyRedMeat

@@ -1,0 +1,3 @@
+http://www.fbk.eu/ontologies/virtualcoach#BehenicAcid
+http://www.fbk.eu/ontologies/virtualcoach#ConsumedFood
+http://www.fbk.eu/ontologies/virtualcoach#Lipid

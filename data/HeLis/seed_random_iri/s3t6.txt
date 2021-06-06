@@ -1,0 +1,3 @@
+http://www.fbk.eu/ontologies/virtualcoach#VinegarDressing
+http://www.fbk.eu/ontologies/virtualcoach#LeanGameMeat
+http://www.fbk.eu/ontologies/virtualcoach#Isoleucine

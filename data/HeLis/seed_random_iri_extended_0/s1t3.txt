@@ -1,0 +1,2 @@
+http://www.fbk.eu/ontologies/virtualcoach#PantothenicAcid
+http://www.fbk.eu/ontologies/virtualcoach#Vitamin

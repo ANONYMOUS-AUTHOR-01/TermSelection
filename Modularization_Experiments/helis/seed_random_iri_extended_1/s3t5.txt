@@ -1,0 +1,6 @@
+http://www.fbk.eu/ontologies/virtualcoach#AdultBovineFattyRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#AnimalFatsAndOils
+http://www.fbk.eu/ontologies/virtualcoach#Carbs
+http://www.fbk.eu/ontologies/virtualcoach#FatsAndOils
+http://www.fbk.eu/ontologies/virtualcoach#FattyRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#Fructose

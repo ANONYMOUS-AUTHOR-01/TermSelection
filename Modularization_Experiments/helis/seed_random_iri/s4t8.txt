@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#LambLeanWhiteMeat
+http://www.fbk.eu/ontologies/virtualcoach#SausagesAndColdCuts
+http://www.fbk.eu/ontologies/virtualcoach#GlutamicAcid
+http://www.fbk.eu/ontologies/virtualcoach#AnimalLipid

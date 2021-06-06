@@ -1,0 +1,4 @@
+http://www.fbk.eu/ontologies/virtualcoach#AdultBovineLeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#AnimalFats
+http://www.fbk.eu/ontologies/virtualcoach#LeanRedMeat
+http://www.fbk.eu/ontologies/virtualcoach#TableCream

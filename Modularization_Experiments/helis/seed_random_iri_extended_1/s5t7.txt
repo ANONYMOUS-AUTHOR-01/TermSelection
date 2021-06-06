@@ -1,0 +1,11 @@
+http://www.fbk.eu/ontologies/virtualcoach#Activity
+http://www.fbk.eu/ontologies/virtualcoach#CerealsAndGrainProducts
+http://www.fbk.eu/ontologies/virtualcoach#MusicPlaying
+http://www.fbk.eu/ontologies/virtualcoach#Pasta
+http://www.fbk.eu/ontologies/virtualcoach#Profile
+http://www.fbk.eu/ontologies/virtualcoach#SugarAndSweets
+http://www.fbk.eu/ontologies/virtualcoach#SweetSpreads
+http://www.fbk.eu/ontologies/virtualcoach#Timespan
+http://www.fbk.eu/ontologies/virtualcoach#Week
+http://www.fbk.eu/ontologies/virtualcoach#WheatFour
+http://www.fbk.eu/ontologies/virtualcoach#WholeWheatFlour
