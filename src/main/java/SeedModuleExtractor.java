@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SeedModuleExtractor {
-    static public String onto_file_path = "data/SnomedCT/ontology_202007.owl";
+    static public String onto_file_path = "data/SnomedCT/ontology.owl";
     static public String refset_seed_dir = "data/SnomedCT/nhs_seed_random_iri/";
     static public String module_file_dir = "data/SnomedCT/nhs_output_random_module_owl/";
     static public String module_iri_dir = "data/SnomedCT/nhs_output_random_module_iri/";

@@ -30,7 +30,7 @@ The NHS/NRC refsets are placed in `data/SnomedCT/{nhs_nrc}_refset_iri/`
 
 The seed signatures are placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_iri/`
 
-To reproduce results of different models, use `compute_result.ipynb` following the instructions above.
+To **reproduce results of NN-RANK** and other baseline models, use `compute_result.ipynb` following the instructions above.
 
 ### To re-generate concept & fine-tuning
 
@@ -83,19 +83,42 @@ To re-generate fine-tuned concept embedding, unzip the language model in `checkp
 > ```
 > Connect to the `jupyter notebook` service by keying the prompted URL in your browser, then open  `data_preprocessing.ipynb` and `MetaSVDD.ipynb` to run the code blocks.
 
-To re-generate predictions of MetaSVDD, run `data_preprocessing.ipynb` first to generate all necessary auxiliary files, and run `MetaSVDD.ipynb` to make predictions.
+To re-generate predictions of MetaSVDD, run `data_preprocessing.ipynb` first to generate necessary auxiliary files (e.g., refset concept embedding), and run `MetaSVDD.ipynb` to make predictions.
 
-### For reproduce results of other models
+### To reproduce results of Signature-extension
 
-To reproduce `Star-Modularization` results, run `src/main/java/SeedModuleExtractor.java` with `jdk 8`. Need one dependency `Modularization_Experiments/UI_modularization/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar`.
+> Code is tested on **Windows 10 20H2** , **Python 3.6.9** and **JDK-14**
+>
+> Usage:
+>
+> ```bash
+>git clone https://github.com/ANONYMOUS-AUTHOR-01/TermSelection.git
+> cd TermSelection
+> unzip data/SnomedCT/ontology.zip -d data/SnomedCT/
+> 
+> python3 -m venv ts_general_env
+> source ts_general_env/bin/activate
+> pip3 install -r general_requirements.txt
+> 
+> # change the java_path specified in sigExtension-ghadah.py
+> python3 sigExtension-ghadah.py
+> ```
+
+To reproduce `Signature-Extension` results, change the `java_path` specified in `sigExtension-ghadah.py` to a java environment with `jdk 14` or `jdk 12` , and run `sigExtension-ghadah.py`.
+
+The computation results of `Signature-Extension` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_extended_*/`
+
+### To reproduce results of star-modularization
+
+To reproduce `Star-Modularization` results, create a new `maven` project with `jdk 1.8` using `IDEA`,  place `data/main/java`
+
+
+
+ run `src/main/java/SeedModuleExtractor.java` with `jdk 8`. Need one dependency `Modularization_Experiments/UI_modularization/elk-owlapi4-tryout-0.0.1-SNAPSHOT.jar`.
 
 > The computation results of `Star-Modularization` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_output_{random,select}_module_iri/`
 
-To reproduce `Signature-Extension` results, change the `java_path` specified in `sigExtension-ghadah.py` to a java environment with `jdk 11` or `jdk 12` , and run `sigExtension-ghadah.py`.
 
-> The computation results of `Signature-Extension` for evaluation is placed in `data/SnomedCT/{nhs,nrc}_seed_{random,select}_extended_*/`
-
-To reproduce `Meta-SVDD` results, use `data_preprocessing.ipynb` to export refset embeddings, and run `MetaSVDD.ipynb`.
 
 ## Modularization Experiments
 
